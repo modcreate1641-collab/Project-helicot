@@ -40,7 +40,7 @@ This repository documents three separate programs:
 -   [Building and running the C++
     tools](#building-and-running-the-c-tools)
 -   [Recommended workflow](#recommended-workflow)
--   [Usage rules and redistribution](#usage-rules-and-redistribution)
+-   [Project usage terms](#project-usage-terms)
 -   [Limitations and troubleshooting](#limitations-and-troubleshooting)
 -   [Raspberry Pi OS (optional)](#raspberry-pi-os-optional)
 -   [Official references](#official-references)
@@ -544,42 +544,27 @@ The tools are not an automatic pipeline. Choose the processing order
 based on the source material and desired result, and inspect
 intermediate files before continuing to another stage.
 
-## Usage rules and redistribution
+## Project usage terms
 
-By using or sharing this software, you agree to follow these project-use
-rules:
+Project Helicot makes its source code publicly available so users can inspect the implementation, build the programs, and run them locally on their own devices. The following guidelines explain the project's intended use and attribution expectations.
 
-1.  **Use MIDI files lawfully.** Only process, publish, or redistribute
-    files you created, have permission to use, or are otherwise legally
-    entitled to use.
-2.  **Respect licenses and attribution.** When sharing a MIDI file or a
-    derivative, follow the original creator's license and attribution
-    requirements. Processing a file does not remove its copyright or
-    license restrictions.
-3.  **Credit upstream work.** If you redistribute this project, modified
-    versions, or included third-party code, retain required copyright
-    notices, licenses, and attribution. Include the original project URL
-    and the exact revision where practical.
-4.  **Do not misrepresent authorship.** Clearly identify your
-    modifications and do not claim that third-party MIDI files or code
-    were created by you.
-5.  **Review before execution.** Do not run source code from an
-    untrusted repository without inspecting it.
-6.  **Protect original data.** Keep backups and verify output paths
-    before batch processing.
-7.  **Report bugs responsibly.** Include the device/OS version, command,
-    relevant error message, and a minimal reproducible example. Do not
-    upload copyrighted MIDI files or private data unless you have
-    permission.
-8.  **No blanket redistribution permission is implied.** A repository
-    without a clearly published license does not automatically grant
-    permission to copy, modify, or redistribute its code. The repository
-    owner should add a `LICENSE` file before describing the project as
-    open source.
+1. **Local use and execution.** Users may download the publicly available source files, compile the programs, and run them on their own devices.
+2. **Study and local modification.** Users may inspect the source code and make modifications for personal or internal use. Modified copies should be clearly distinguished from the original Project Helicot versions.
+3. **Attribution when sharing.** If you share excerpts, modified versions, or other material derived from this project, identify Project Helicot as the original source where applicable and retain existing copyright or attribution notices.
+4. **No false authorship claims.** Do not claim that you created the original Project Helicot project or its unmodified source code. Do not present a modified version as an official release.
+5. **No misleading endorsement.** Do not use the Project Helicot name in a way that falsely suggests that a fork, derivative, or third-party release is official or endorsed by the original project maintainer.
+6. **Respect third-party rights.** MIDI files, libraries, dependencies, and other third-party materials may have their own copyright and license terms. Processing a MIDI file does not remove those restrictions.
+7. **Use MIDI files lawfully.** Only process, publish, or redistribute MIDI files that you created, have permission to use, or are otherwise legally entitled to use.
+8. **Protect original data.** Keep backups and verify output paths before batch processing. Review source code before running builds obtained from untrusted locations.
+9. **Responsible bug reports.** Include the device/OS version, command, relevant error message, and a minimal reproducible example. Do not upload copyrighted MIDI files or private data unless you have permission.
 
-These rules are project guidance, not legal advice. Third-party MIDI
-files and dependencies may have separate terms.
+### License status
 
+Project Helicot currently has **no formal software license**. These guidelines describe the project's intended use and attribution expectations; they are not an OSI-approved open-source license or a substitute for a formal `LICENSE` file. Public access to source code does not, by itself, grant unrestricted redistribution rights.
+
+If a formal license is added in the future, its terms should be published in a `LICENSE` file in the repository. Third-party MIDI files and dependencies remain subject to their own terms.
+
+These notes are project guidance, not legal advice.
 ## Limitations and troubleshooting
 
 ### Python synchronizer: event cleanup
@@ -758,6 +743,11 @@ until tested.
 -   **Raspberry Pi OS documentation:**
     https://www.raspberrypi.com/documentation/computers/os.html
 -   **Raspberry Pi Imager:** https://www.raspberrypi.com/software/
+
+## License
+
+Project Helicot currently has **no formal software license**. Refer to [Project usage terms](#project-usage-terms) for the project's stated expectations around local use, modification, attribution, and sharing. Public source availability should not be interpreted as unrestricted permission to redistribute the code. A formal license can be added later if the project maintainer decides to grant broader permissions.
+------------------------------------------------------------------------
 
 **Project Helicot • Android-first • Termux-native workflow • MIDI timing
 tools • Black MIDI part processing**
